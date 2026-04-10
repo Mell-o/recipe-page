@@ -37,7 +37,7 @@ body {
     align-items: center;
     justify-content: center;
     background: var(--Stone-100);
-    color: var(--Stone-600)
+    color: var(--Stone-600);
 }
 
 h1 {
@@ -50,6 +50,10 @@ h2 {
 
 h1, h2 {
     font-family: "Young Serif", serif;
+}
+
+h3 {
+    color: var(--Rose-800);
 }
 
 figure {
@@ -76,4 +80,8 @@ span {
     width: 50vw;
     height: fit-content;
     padding: 40px;
+}
+
+.preparation-time-card {
+    background: var(--Rose-50);
 }
