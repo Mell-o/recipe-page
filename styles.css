@@ -90,6 +90,7 @@ li::marker {
 table {
     width: 100%;
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 tr {
@@ -97,13 +98,24 @@ tr {
     text-align: left;
 }
 
+tr:last-child {
+    border-bottom: none;
+}
+
+th, td {
+    width: 50%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
 th {
     font-weight: 300;
+    padding-left: 35px;
 }
 
 td {
     font-weight: 500;
-    color: var(--Brown-800)
+    color: var(--Brown-800);
 }
 
 .bold {
@@ -137,9 +149,13 @@ td {
 
 .instructions-section, .nutrition-section {
     border-top: 1px solid var(--Stone-150);
-    margin: 1.5rem 0 0 0;
+    margin: 1rem 0 0 0;
 }
 
 .instructions-section h2, .nutrition-section h2 {
-    margin: 1.5rem 0 0 0;
+    margin: 1.25rem 0;
+}
+
+.instructions-section p, .nutrition-section p {
+    margin-top: 0;
 }
