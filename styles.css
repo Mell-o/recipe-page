@@ -97,6 +97,15 @@ tr {
     text-align: left;
 }
 
+th {
+    font-weight: 300;
+}
+
+td {
+    font-weight: 500;
+    color: var(--Brown-800)
+}
+
 .bold {
     color: var(--Stone-600);
     font-weight: 600;
