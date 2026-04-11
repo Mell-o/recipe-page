@@ -115,3 +115,12 @@ li::marker {
 .preparation-time-card li::marker {
     color: var(--Rose-800);
 }
+
+.instructions-section, .nutrition-section {
+    border-top: 1px solid var(--Stone-150);
+    margin: 1.5rem 0 0 0;
+}
+
+.instructions-section h2, .nutrition-section h2 {
+    margin: 1.5rem 0 0 0;
+}
