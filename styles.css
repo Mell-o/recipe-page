@@ -87,6 +87,16 @@ li::marker {
     font-weight: 500;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid var(--Stone-150);
+    text-align: left;
+}
+
 .bold {
     color: var(--Stone-600);
     font-weight: 600;
