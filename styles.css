@@ -109,7 +109,7 @@ table {
 }
 
 tr {
-    border-bottom: 1px solid var(--Stone-150);
+    border-bottom: 0.063rem solid var(--Stone-150);
     text-align: left;
 }
 
@@ -162,7 +162,7 @@ td {
 }
 
 .instructions-section, .nutrition-section {
-    border-top: 1px solid var(--Stone-150);
+    border-top: 0.063rem solid var(--Stone-150);
     margin: 2rem 2.5rem 0 2.5rem;
 }
 
