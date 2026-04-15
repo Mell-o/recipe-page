@@ -39,7 +39,7 @@ body {
     justify-content: center;
     background: var(--Stone-100);
     color: var(--Stone-600);
-    margin: 60px 0 0 0;
+    margin: 3.75rem 0;
 }
 
 h1 {
