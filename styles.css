@@ -7,6 +7,7 @@
     --Brown-800: hsl(14, 45%, 36%);
     --Rose-800: hsl(332, 51%, 32%);
     --Rose-50: hsl(330, 100%, 98%);
+    --attribution-color: hsl(228, 45%, 44%);
 }
 
 @font-face {
@@ -164,6 +165,21 @@ td {
 
 .instructions-section p, .nutrition-section p {
     margin-top: 0;
+}
+
+.attribution {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.6875rem;
+    text-align: center;
+    color: var(--Stone-900);
+}
+
+.attribution a {
+    color: var(--Brown-800);
+}
+
+.attribution a:hover {
+    color: var(--Rose-800)
 }
 
 @media screen and (max-width: 425px) {
