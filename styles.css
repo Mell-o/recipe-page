@@ -144,6 +144,7 @@ td {
     background: var(--Rose-50);
     padding: 1.5rem;
     border-radius: 0.625rem;
+    margin: 2.25rem 0 0 0;
 }
 
 .preparation-time-card ul {
