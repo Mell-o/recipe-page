@@ -24,7 +24,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-flexbox-tYNQR_Xx0N)
 - [Live Site](https://recipe-page-mellow.netlify.app/)
 
 ## My process
