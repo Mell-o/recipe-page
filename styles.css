@@ -33,7 +33,7 @@ body {
     height: fit-content;
     font-size: 1.2rem;
     font-family: "Outfit", "sans-serif";
-    font-weight: 00;
+    font-weight: 300;
     display: flex;
     flex-direction: column;
     align-items: center;
